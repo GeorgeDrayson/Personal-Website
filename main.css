@@ -84,7 +84,7 @@ ul {
 
 
 
-img {
+img[src="./images/profile.jpg"] {
   height: 400px;
   width: 400px;
   border-radius: 200px;
@@ -94,6 +94,11 @@ img {
   top: 100px;
   left: 35px;
   clear: both;
+}
+
+img[src="./images/ma-wordmark-white.png"] {
+  float: left;
+  padding: 40px 25px;
 }
 
 body {
@@ -112,4 +117,14 @@ body {
 
 #nav {
  text-align:center;
+}
+
+#Makers {
+  border: 5px solid white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.right {
+  text-align: right;
 }
