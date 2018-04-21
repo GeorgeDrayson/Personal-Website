@@ -1,11 +1,11 @@
-.navigation a:link, .navigation a:visited {
+a:link, a:visited {
   text-decoration: none;
   color: white;
 }
 
-.navigation a:hover, .navigation a:active {
-    text-decoration: underline;
-    color: white;
+a:hover, a:active {
+  text-decoration: underline;
+  color: white;
 }
 
 .about_list a:link, .about_list a:visited {
@@ -49,7 +49,7 @@
 
 .list {
   display: inline-block;
-  padding-top: 200px;
+  padding-top: 150px;
   padding-left: 15px;
   padding-right: 0px;
 }
@@ -71,18 +71,39 @@ ul {
 
 }
 
-.navigation li:last-child {
+
+.navigation li:last-child, #makers-links li:last-child, #social-links li:last-child {
   border-right: none;
   padding: 0;
 }
 
 
-.navigation {
+.navigation  {
   color: white;
   text-align: right;
 }
 
+#makers-links li {
+  display: inline-block;
+  font-size: 20px;
+  border-right: 1px solid white;
+  padding-right: 8px;
+}
 
+#makers-links {
+  padding-top: 14px;
+}
+
+#social-links {
+  padding-top: 80px;
+}
+
+#social-links li {
+  display: inline-block;
+  font-size: 30px;
+  border-right: 1px solid white;
+  padding-right: 8px;
+}
 
 img[src="./images/profile.jpg"] {
   height: 400px;
@@ -94,11 +115,6 @@ img[src="./images/profile.jpg"] {
   top: 100px;
   left: 35px;
   clear: both;
-}
-
-img[src="./images/ma-wordmark-white.png"] {
-  float: left;
-  padding: 40px 25px;
 }
 
 body {
@@ -127,4 +143,9 @@ body {
 
 .right {
   text-align: right;
+}
+
+.left-image {
+  float: left;
+  padding: 40px 25px;
 }
