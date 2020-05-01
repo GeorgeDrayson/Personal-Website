@@ -8,17 +8,8 @@ a:hover, a:active {
   color: white;
 }
 
-.about_list a:link, .about_list a:visited {
-  text-decoration: none;
-  color: white;
+.about_list a {
   font-weight: bold;
-}
-
-
-.about_list a:hover, .about_list a:active {
-    text-decoration: underline;
-    color: white;
-    font-weight: bold;
 }
 
 .logo {
@@ -125,7 +116,7 @@ img[src="./images/oxford-logo.png"] {
 body {
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  background-color: #EE5050;
+  background-color: #FA434B;
   color: white;
 }
 
