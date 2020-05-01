@@ -117,6 +117,11 @@ img[src="./images/profile.jpg"] {
   clear: both;
 }
 
+img[src="./images/oxford-logo.png"] {
+  height: 60px;
+  width: 200px;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   text-align: center;
@@ -135,7 +140,7 @@ body {
  text-align:center;
 }
 
-#Makers {
+#Project {
   border: 5px solid white;
   padding: 20px;
   margin: 20px;
