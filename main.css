@@ -12,23 +12,6 @@ a:hover, a:active {
   font-weight: bold;
 }
 
-.logo {
-  float: left;
-  display: inline-block;
-  height
-}
-
-#title {
-  float: left;
-  font-weight: bold;
-  display: inline-block;
-  position: relative;
-  height: 10px;
-  padding: 0;
-  margin:auto;
-}
-
-
 .about_list {
   color: white;
   text-align: left;
@@ -54,7 +37,7 @@ ul {
 
 .navigation li {
   display: inline-block;
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   border-right: 1px solid white;
   text-align: center;
@@ -63,7 +46,7 @@ ul {
 }
 
 
-.navigation li:last-child, #makers-links li:last-child, #social-links li:last-child {
+li:last-child {
   border-right: none;
   padding: 0;
 }
@@ -71,7 +54,7 @@ ul {
 
 .navigation  {
   color: white;
-  text-align: right;
+  text-align: left;
 }
 
 #makers-links li {
@@ -91,9 +74,11 @@ ul {
 
 #social-links li {
   display: inline-block;
-  font-size: 30px;
-  border-right: 1px solid white;
-  padding-right: 8px;
+  padding-right: 20px;
+}
+
+#social-links a:hover {
+  opacity: 0.4;
 }
 
 img[src="./images/profile.jpg"] {
